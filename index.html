@@ -2474,6 +2474,6 @@ window.__mtf={get race(){return race},me,Calc,streakCheck,playToday,noteResult,d
 })();
 
 </script>
-<a id="hub-home-link" href="https://yamch9514-tech.github.io/" aria-label="Back to all games" style="position:fixed;left:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:2147483647;background:rgba(22,24,29,.88);color:#fff;font:600 14px/1 system-ui,-apple-system,sans-serif;padding:11px 15px;border-radius:999px;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.25)">← All games</a>
+<div id="hub-home-bar" style="position:relative;z-index:2147483647;box-sizing:border-box;width:100%;flex:0 0 auto;text-align:left;padding:10px 12px 6px"><a id="hub-home-link" href="https://yamch9514-tech.github.io/" aria-label="Back to all games" style="display:inline-block;background:rgba(22,24,29,.85);color:#fff;font:600 14px/1 system-ui,-apple-system,sans-serif;padding:10px 14px;border-radius:999px;text-decoration:none">← All games</a></div><script>(function(){var b=document.getElementById('hub-home-bar');function place(){var t=document.body,s=getComputedStyle(t);if(/flex/.test(s.display)&&s.flexDirection.indexOf('row')===0){t.style.flexWrap='wrap';t.style.alignContent='flex-start';b.style.flexBasis='100%';}if(t.firstChild!==b)t.insertBefore(b,t.firstChild);}place();new MutationObserver(function(){if(document.body.firstChild!==b)place();}).observe(document.body,{childList:true});})();</script>
 </body>
 </html>
